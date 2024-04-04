@@ -33,7 +33,7 @@ img {
   display: block;
 }
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -41,6 +41,12 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-height: 142px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.logo-link {
+  padding-bottom: 35px;
 }
 
 .nav-list {
@@ -50,8 +56,6 @@ img {
   font-size: 18px;
 }
 .nav-item {
-  padding-top: 87px;
-  padding-bottom: 87px;
 }
 
 .nav-list-search {
@@ -61,4 +65,56 @@ img {
 
 .nav-saerch-item:nth-child(3) {
   margin-left: 100px;
+}
+
+/* ========================================================================================================================================================
+main-section
+======================================================================================================================================================== */
+
+.main-section {
+  max-width: 1599px;
+  min-height: 500px;
+  margin: 0 auto;
+  background-image: url(../image/main-bg.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-title {
+  max-width: 790px;
+  margin-left: 0;
+
+  font-family: "Cormorant", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1;
+  color: #fff;
+}
+
+.main-text {
+  max-width: 558px;
+  font-family: "Cormorant", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+
+  margin: 20px 0 48px;
+}
+
+/* ========================================================================================================================================================
+quote
+======================================================================================================================================================== */
+
+.quote {
+  display: flex;
+  font-family: "Cormorant", sans-serif;
+  max-width: 720px;
+  margin: 150px auto;
+
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  color: #151618;
 }
