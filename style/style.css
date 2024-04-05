@@ -32,9 +32,22 @@ ul {
 img {
   display: block;
 }
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: "Cormorant", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .header-wrap {
@@ -117,4 +130,61 @@ quote
   font-size: 40px;
   text-align: center;
   color: #151618;
+}
+
+/* ========================================================================================================================================================
+collection
+======================================================================================================================================================== */
+.collection {
+  min-height: 355px;
+  margin-bottom: 150px;
+}
+.collection-subtitle {
+  font-family: "Cormorant", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.collection-list {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  gap: 40px;
+  /* margin-bottom: 150px; */
+}
+
+.collection-item {
+  width: 208px;
+  height: 247px;
+}
+
+/* ========================================================================================================================================================
+rewievs
+======================================================================================================================================================== */
+
+.rewievs {
+  padding: 60px 0;
+  background: #f7f2ea;
+  opacity: 0.5;
+}
+
+.rewievs-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+}
+.rewievs-item {
+  max-width: 280px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.rewievs-name {
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
 }
